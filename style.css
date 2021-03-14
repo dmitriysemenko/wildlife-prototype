@@ -112,7 +112,7 @@ nav ul {
     padding: 3rem;
 }
 
-/* LOCATIONS SECTION */
+/* BLOG SECTION */
 
 #blog {
     min-height: 100vh;
@@ -128,7 +128,7 @@ nav ul {
     padding-top: 3rem;
 }
 
-/* BENEFITS SECTION */
+/* CONTACTS SECTION */
 
 .contacts-head {
     background: #343c44;
@@ -174,6 +174,24 @@ nav ul {
 
 .card-icon {
     background: #5997c9;
+}
+
+#deer {
+    background: url("img/RectangleDeer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#squirell {
+    background: url("img/RectangleSquirrel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bird {
+    background: url("img/RectangleBird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sign-in {
