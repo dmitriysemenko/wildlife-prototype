@@ -71,11 +71,10 @@ button:hover {
     color: white;
 }
 
-nav {
+.main-head {
     display: flex;
-    width: 90%;
     margin: auto;
-    padding: 2rem;
+    padding-top: 20;
     min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
@@ -87,6 +86,10 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+#logo-img {
+    padding: 15.73px;
 }
 
 #logo {
