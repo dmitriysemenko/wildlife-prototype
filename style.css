@@ -9,9 +9,25 @@ body {
     background-size: cover;
 }
 
-#head {
+#header {
     display: flex;
+    justify-content: space-between;
     color: white;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#menu {
+    min-width: 48vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7px;
+    font-size: 23px;
 }
 
 #logo-img {
@@ -19,12 +35,121 @@ body {
     right: 1.04%;
     top: 1.34%;
     bottom: 1.28%;
+    padding-left: 121px;
 }
 
 #logo-text {
     font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    padding-left: 15.7px;
 }
 
+#menu-img {
+}
+
+#sign-in {
+    width: 120px;
+    height: 50px;
+    left: 1200px;
+    top: 24px;
+    border: 2px solid #cd6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+}
 #paragraph {
     color: white;
+    padding-top: 180px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    max-width: 274px;
+}
+#paragraph-header {
+    font-size: 48px;
+    color: #cd6326;
+}
+#paragraph-text {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+#paragraph-button-div {
+    padding-top: 10px;
+}
+#paragraph-button {
+    background: #cd6326;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+#page_2 {
+    padding-top: 60px;
+    min-height: 1368px;
+    background: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#some-text {
+}
+
+#latest-articles {
+    font-size: 48px;
+    color: #333333;
+}
+
+#some-text-content {
+    padding-top: 10px;
+    font-size: 24px;
+    color: #666666;
+}
+
+#slider {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    height: 360px;
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+#deer {
+    background: url("img/Deer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#squirrel {
+    background: url("img/Squirrel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bird {
+    background: url("img/Bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#email-section {
+}
+
+#email-text {
+    font-size: 27px;
+    color: #333333;
 }
