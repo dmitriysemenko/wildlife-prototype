@@ -92,7 +92,7 @@ body {
 
 #page_2 {
     padding-top: 60px;
-    min-height: 1368px;
+    min-height: 1068px;
     background: #cccccc;
     display: flex;
     flex-direction: column;
@@ -147,9 +147,60 @@ body {
 }
 
 #email-section {
+    padding-top: 120px;
+    text-align: center;
 }
 
 #email-text {
     font-size: 27px;
     color: #333333;
+}
+
+#email-input-button {
+    padding-top: 30px;
+}
+
+#email-input {
+    background: #cccccc;
+    width: 510px;
+    height: 60px;
+    border-width: 1px;
+}
+
+#email-button {
+    width: 120px;
+    height: 60px;
+    background: #cd6326;
+    border: 1px solid #cd6326;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 23px;
+    color: white;
+}
+
+#page_3 {
+    min-height: 360px;
+    background: url("img/Leaves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+}
+
+#footer-img-wildlife {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-img {
+    height: 58px;
+    width: 68px;
+}
+
+#footer-wildlife {
+    padding-left: 16px;
+    font-size: 32px;
 }
