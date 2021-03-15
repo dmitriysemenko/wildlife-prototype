@@ -15,20 +15,24 @@
     <body>
         <div id="page_1">
             <div id="header">
-                <div id="logo">
-                    <div>
-                        <img id="logo-img" src="icons/path0.svg" alt="" />
+                <header>
+                    <div id="logo">
+                        <div>
+                            <img id="logo-img" src="icons/path0.svg" alt="" />
+                        </div>
+                        <div id="logo-text"><h1>WILDLIFE</h1></div>
                     </div>
-                    <div id="logo-text">WILDLIFE</div>
-                </div>
-                <div id="menu">
-                    <div>Blog</div>
-                    <div>Contacts</div>
-                    <div>
-                        <img id="menu-img" src="icons/Vector.svg" alt="" />
-                    </div>
-                    <div id="sign-in">Sign In</div>
-                </div>
+                </header>
+                <ul id="menu">
+                    <li><a href="#page_2">Blog</a></li>
+                    <li><a href="#email-section">Contacts</a></li>
+                    <li>
+                        <a href=""
+                            ><img id="menu-img" src="icons/Vector.svg" alt=""
+                        /></a>
+                    </li>
+                    <li id="sign-in"><a href="">Sign In</a></li>
+                </ul>
             </div>
             <div id="paragraph">
                 <div id="paragraph-header">Survival</div>
@@ -52,16 +56,16 @@
                     <img src="icons/back.svg" alt="back" />
                 </div>
                 <div class="card" id="deer">
-                    <div>Deer</div>
-                    <div>Naturalist Investigation</div>
+                    <div class="card-paragraph"><h4>Deer</h4></div>
+                    <div class="card-text">Naturalist Investigation</div>
                 </div>
                 <div class="card" id="squirrel">
-                    <div>Squirrel</div>
-                    <div>Kamikaze squirrels</div>
+                    <div class="card-paragraph"><h4>Squirrel</h4></div>
+                    <div class="card-text">Kamikaze squirrels</div>
                 </div>
                 <div class="card" id="bird">
-                    <div>Bird</div>
-                    <div>Birds Fight club</div>
+                    <div class="card-paragraph"><h4>Bird</h4></div>
+                    <div class="card-text">Birds Fight club</div>
                 </div>
                 <div>
                     <img src="icons/forward.svg" alt="forward" />
@@ -72,7 +76,7 @@
                     Get notified about new amazing articles
                 </div>
                 <div id="email-input-button">
-                    <input type="text" id="email-input" />
+                    <input type="text" id="email-input" placeholder="Email" />
                     <button id="email-button">Send</button>
                 </div>
             </div>
